@@ -1,0 +1,22 @@
+{
+  "name": "app-weather",
+  "version": "1.0.0",
+  "description": "Weather terminal app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather app",
+    "terminal app"
+  ],
+  "author": "albertoalejandro10",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4"
+  }
+}
